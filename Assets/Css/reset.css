@@ -1,0 +1,42 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Macht das Layout einfacher */
+}
+
+body {
+  font-family: Arial, sans-serif; /* Wähle eine Schriftart */
+  font-size: 100%; /* Basisgröße */
+  line-height: 1.5; /* Zeilenhöhe für bessere Lesbarkeit */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal; /* Entferne den fetten Text */
+}
+
+ul,
+ol {
+  list-style: none; /* Entferne Aufzählungszeichen */
+}
+
+img {
+  max-width: 100%; /* Stelle sicher, dass Bilder responsiv sind */
+  height: auto; /* Halte das Seitenverhältnis */
+}
+
+a {
+  text-decoration: none; /* Entferne Unterstreichungen */
+  color: inherit; /* Erbt die Textfarbe */
+}
+
+button {
+  border: none; /* Entferne Standardrahmen */
+  background: none; /* Entferne den Hintergrund */
+  padding: 0; /* Setze Padding zurück */
+}
