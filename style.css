@@ -1,4 +1,6 @@
 body {
+	font-family: Arial, sans-serif;
+    text-align: center;
 	height: 100dvh;
 	width: 100dvw;
 	margin: 0 auto;
@@ -10,4 +12,26 @@ body {
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #2980b9;
 }
