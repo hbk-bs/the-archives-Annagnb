@@ -6,22 +6,93 @@
     <title>Perspektive - Annas Archiv</title>
     <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
     <link rel="stylesheet" href="../style.css" />
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            background-color: #f4cbe2;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            margin-bottom: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #437242;
+            font-weight: bold;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .gallery-item {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px #437242;
+            padding: 15px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 150px; 
+            object-fit: cover; 
+            border-radius: 5px;
+        }
+
+        .gallery-item a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #437242;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Perspektive Sketches</h1>
+    <h1>perspective sketches</h1>
     
     <nav>
         <a href="../index.html">Back to Menu</a>
     </nav>
 
-    <ul>
-        <li><a href="color-intensity/index.html">color-intensity</a></li>
-        <li><a href="fisheye/index.html">fisheye</a></li>
-        <li><a href="overhead-view/index.html">overhead-view</a></li>
-        <li><a href="size/index.html">size</a></li>
-        <li><a href="wide-angle/index.html">wide-angle</a></li>
-        
-    </ul>
+   
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="../assets/images/color-intensity.png" alt="color-intensity">
+            <a href="color-intensity/index.html">color-intensity</a>
+        </div>
+        <div class="gallery-item">
+            <img src="../assets/images/fisheye.png" alt="fisheye">
+            <a href="fisheye/index.html">fisheye</a>
+        </div>
+        <div class="gallery-item">
+            <img src="../assets/images/overhead-view.png" alt="overhead-view">
+            <a href="overhead-view/index.html">overhead-view</a>
+        </div>
+        <div class="gallery-item">
+            <img src="../assets/images/size.png" alt="Size">
+            <a href="size/index.html">size</a>
+        </div>
+        <div class="gallery-item">
+            <img src="../assets/images/wide-angle.png" alt="wide-angle">
+            <a href="wide-angle/index.html">wide-angle</a>
+        </div>
+    </div>
 </body>
 </html>
