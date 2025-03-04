@@ -2,17 +2,22 @@ body {
     font-family: Arial, Helvetica, sans-serif
     margin: 0;
     padding: 0;
-    background: linear-gradient(120deg, #e7dbfb , #dac7fd);
+    background: linear-gradient(120deg, #ebe1fb , #dfcffb);
     text-align: center;
 }
 
 main {
+    font-family: Arial, Helvetica, sans-serif;
     padding: 50px 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
 }
 
 h2 {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
-    color: #fe960d;
+    color: #fa9a1c;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
@@ -31,23 +36,24 @@ h2 {
     font-size: 18px;
     font-weight: bold;
     color: white;
-    background: #fe960d;
+    background: #fa9a1c;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 .category:hover {
-    background: #e7dbfb;
-    color: #fe960d;
+    background: #ebe1fb;
+    color: #fa9a1c;
 }
 footer {
-    background: #e7dbfb;
+    background: #ebe1fb;
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 50px;
 }
 h1 {
+    color: #fa9a1c;
     font-size: 72px;
     margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif; 
@@ -60,13 +66,13 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #fe960d;
+    color: #fa9a1c;
     font-size: 1.2rem;
     margin: 0 10px;
 }
 
 nav a:hover {
-    color: #fe960d;
+    color: #fa9a1c;
 }
 ul {
     list-style: none;
@@ -82,7 +88,7 @@ ul li a {
     text-decoration: none;
     font-family: Helvetica, sans-serif;
     padding: 10px 20px;
-    background-color: #fe960d;
+    background-color: #fa9a1c;
     color: white;
     border-radius: 5px;
     transition: background-color 0.3s ease;
@@ -90,5 +96,5 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: #fe960d;
+    background-color: #fa9a1c;
 }
