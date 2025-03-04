@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif
     margin: 0;
     padding: 0;
-    background: linear-gradient(120deg, #dac7fd , #d0b7ff);
+    background: linear-gradient(120deg, #ddcbff , #dac7fd);
     text-align: center;
 }
 
@@ -12,7 +12,7 @@ main {
 
 h2 {
     font-size: 24px;
-    color: (255, 165, 0);
+    color: #fe960d;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
@@ -37,11 +37,11 @@ h2 {
     transition: background-color 0.3s ease;
 }
 .category:hover {
-    background: #dac7fd;
+    background: #ddcbff;
     color: #fe960d;
 }
 footer {
-    background: #dac7fd;
+    background: #ddcbff;
     color: white;
     text-align: center;
     padding: 20px;
