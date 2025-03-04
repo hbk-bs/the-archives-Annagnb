@@ -1,8 +1,8 @@
 body {
-    
+    font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4cbe2;
+    background: linear-gradient(120deg, #f4cbe2, #f99a52) ;
     text-align: center;
 }
 .main-title {
@@ -57,4 +57,12 @@ ul li a {
 
 ul li a:hover {
     background-color: #437242;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
 }
