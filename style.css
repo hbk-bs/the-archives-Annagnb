@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif
     margin: 0;
     padding: 0;
-    background: linear-gradient(120deg, #d4bdff , #c5a8fb);
+    background: linear-gradient(120deg, #dac7fd , #d0b7ff);
     text-align: center;
 }
 
@@ -37,11 +37,11 @@ h2 {
     transition: background-color 0.3s ease;
 }
 .category:hover {
-    background: #d4bdff;
+    background: #dac7fd;
     color: #fe960d;
 }
 footer {
-    background: #d4bdff;
+    background: #dac7fd;
     color: white;
     text-align: center;
     padding: 20px;
