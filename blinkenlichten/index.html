@@ -18,11 +18,30 @@
 
     <div class="media-container">
         <img src="../assets/images/blinkebaum.png" alt="Bild 1">
-        <video controls>
-            <source src="../assets/images/blinkebaum2.png" type="Bild 2">
+       
+    <img src="../assets/images/blinkebaum2.png" alt="Bild 2">
             
-        </video>
-        <img src="../assets/images/blinkebaumvid.mp4" alt="video">
+        <video controls>
+        <source src="../assets/images/blinkebaumvid.mp4" type="video">
+    </video>
     </div>
 </body>
 </html>
+<style>
+.media-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    flex-wrap: wrap;
+}
+
+.media-container img,
+.media-container video {
+    width: 30%; 
+    max-width: 300px; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+</style>
