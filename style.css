@@ -111,6 +111,7 @@ ul li a:hover {
 .gallery-item {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     text-decoration: none;
     color: #fa9a1c;
