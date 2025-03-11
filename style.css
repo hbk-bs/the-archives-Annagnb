@@ -120,28 +120,43 @@ ul li a:hover {
     border-radius: 10px;
     padding: 15px;
     transition: transform 0.2s ease-in-out;
-
 }
 
-.gallery-subitem {
-    width: 32%;
+.gallery-item .gallery-subitem-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.gallery-item .gallery-subitem {
+    width: 30%;
     text-align: center;
-    margin-right: 2%;
 }
 
-.gallery-subitem img {
-    max-width: 100%;
+.gallery-item .gallery-subitem img {
+    width: 100%;
     height: auto;
-    border-radius: 5px ;
+    border-radius: 5px;
 }
 
-.gallery-subitem a {
-    display: block;
+
+
+.gallery-item .gallery-subitem a {
     font-size: 12px;
     font-weight: lighter;
     text-decoration: none;
     margin-top: 8px;
 }
+
+.gallery-item .gallery-subitem p {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #555;
+    margin-top: 4px;
+}
+
+
+
 
 
 .gallery-item img {
