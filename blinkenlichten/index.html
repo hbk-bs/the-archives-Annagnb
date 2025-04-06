@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinkenlichten - Annas Archiv</title>
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+    <h1>Blinkenlichten</h1>
+    <nav>
+        <a href="../index.html">zurück zu meinen Projekten</a>
+    </nav>
+
+ <p>Das Projekt zum Thema "Blinkenlichten" haben 
+    Andrea Kost Avila und ich zusammen erarbeitet. 
+    Dadurch, dass Physical Computing etwas Neues 
+    für uns war, haben wir uns sehr gefreut, als 
+    Team daran arbeiten zu können. Der Austausch 
+    untereinander hat uns extrem weitergeholfen 
+    bei Problemlösungen wie beispielsweise Logikfehlern 
+    in der Verkabelung und dem Stecken des Stromkreises. 
+    Dadurch, dass man mit seinen Fragen und Unsicherheiten 
+    nicht alleine war, wurde der gesamte Arbeits- und vor 
+    allem Lernprozess erleichtert und verbessert. Zudem 
+    haben die unterschiedlichen Perspektiven zu besseren 
+    Lösungen und gestalterischen Entscheidungen geführt. 
+    Das Lernen durch und mit der Praxis ist für mich 
+    persönlich generell ein wichtiger Schritt, aber vor 
+    allem bei diesem Projekt haben die anfänglichen 
+    Herausforderungen einen großen Effekt erzielt. 
+    Der direkte Einfluss des Codes auf die physische 
+    Umgebung hat die Zusammenhänge nochmal greifbarer 
+    gemacht, als bei reiner Software. Die Kombination 
+    aus Code, Technik und Gestaltung war abwechslungsreich 
+    und eine spannende Möglichkeit, um Neues auszuprobieren. 
+    So war das Löten zum Beispiel eine neue Technik mit neuen 
+    Materialien, die mir aufgrund der präzisen Handhabung und 
+    Geduld rückblickend betrachtet sehr gut gefallen hat. 
+    Insgesamt lässt sich dieses Projekt für mich als eine Mischung aus 
+    Präzision und Kreativität besschreiben. So war zum einem die 
+    genaue und korrekte Verbindung zwischen dem Arduino-Board und 
+    den kleinen LEDs von Bedeutung, als auch die gestalterische 
+    Umsetzung der Idee. Ein weiterer, wichtiger Aspekt bei dieser 
+    Aufgabe, war die Kommunikation des ganzen Kurses bezüglich 
+    der Gesamtgestaltung und Präsentation der Blinkenlichten-Projekte. 
+    Dabei wurde ein großer Fokus auf die Gesamtwirkung der Materialien, 
+    Farben und Größen gelegt, was auch mir nochmal verdeutlicht hat, 
+    welches Potenzial die gemeinsame Ausarbeitung und das Besprechen 
+    verschiedener Vorschläge mit sich bringt. Insgesamt ist Andrea 
+    und mir die Idee einen Baum mithilfe von Draht darzustellen, 
+    relativ intuitiv gekommen und auch bei der Formfindung und 
+    Stilisierung des Baumes konnten wir sehr gut miteinander 
+    arbeiten und gemeinsam unsere Ideen umsetzen. 
+</p>
+<a href="index.js">source code</a>
+    <div class="media-container">
+        <img src="../assets/images/blinkebaum.png" alt="Bild 1" class="rotate">
+        <img src="../assets/images/blinkebaum2.png" alt="Bild 2" class="rotate">
+        <video controls>
+            <source src="../assets/images/blinkebaumvid.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+</html>
+
+<style>
+.media-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 10px; 
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.media-container img,
+.media-container video {
+    width: 300px; 
+    height: 400px; 
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/
+.media-container img {
+    transform: rotate(90deg); 
+    transform-origin: center; 
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    max-width: 65ch;
+    text-align: left;
+    line-height: 1.6;
+    margin: 0 auto 40px; 
+}
+</style>
+
+

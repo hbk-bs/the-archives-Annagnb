@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js Starter Project</title>
+    <style>
+    html,
+    body {
+        margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-end;
+        .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+    }
+    </style>
+</head>
+<body>
+<main>
+    <div id="sketch"></div>
+    <div class="container">
+        <header> you deserve a little treat </header>
+        <main>
+          <button onclick="changeColor()">change gummybear flavor</button>
+        </main>
+        <div id="canvas-container"></div>
+      </div>
+    <a href="index.js">source code</a>
+    </main>
+    <script src="./modules/p5/lib/p5.min.js"></script>
+    
+    <script src="index.js"></script>
+</body>
+</html>
